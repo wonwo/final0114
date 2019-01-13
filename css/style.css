@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(http://static.betweengos.com/wp-content/uploads/2017/09/lifestyle-dogs-you-should-follow-on-instagram-cover-2-700x506.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #e6d1b1;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #e6d1b1;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://c1.staticflickr.com/5/4377/36198808443_43181d0f9d_b.jpg);
+  height: 350px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#secion_about img {
+  width: 150%;
+}
+section#secion_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
